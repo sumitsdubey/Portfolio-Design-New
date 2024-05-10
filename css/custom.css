@@ -1,0 +1,92 @@
+
+.client-logo{
+    width: 40%;
+}
+
+.hero{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 0;
+}
+.hero .hero-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .hero-left .subheading, .hero .hero-left h1 span{
+    color: #ffbd39;
+}
+
+.hero .hero-left .heading{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.hero .carousel-item img{
+    width: 80%;
+}
+
+
+/* Gallery **********  */
+.gallery-img{
+    transition: 0.5s ease;
+}
+.gallery-img img{
+    width: 100%;
+}
+.gallery-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-btn a{
+    padding: 1rem 2rem;
+    background: #ffbd39;
+    color: white;
+    border-radius: 20rem;
+}
+
+.ftco-footer-widget p span{
+    color: #ffbd39;
+}
+.video-girl video{
+    width: 40%;
+}
+
+@media (max-width:600px ){
+    body{
+        padding: 0rem 2rem;
+    }
+    .hero{
+        margin-top: 0px;
+
+    }
+    .hero .carousel-item img{
+        width: 100%;
+    }
+    .hero .hero-content{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       /* flex-direction: column-reverse; */
+    }
+    .hero .carousel-item img{
+        margin-top: 1rem;
+    }
+    .hero .hero-left .heading{
+        font-size: 2rem;
+    }
+    .hero .hero-left h2{
+        font-size: 1.3rem;
+    }
+    .project{
+        height: 200px;
+    }
+    .video-girl video{
+        width: 100%;
+    }
+}
